@@ -13,8 +13,6 @@ import {Router, RouterLink, RouterLinkActive} from "@angular/router";
 })
 export class HeaderComponent {
 
-  responsiveMenuVisible: Boolean = false;
-  pageYPosition: number = 0;
 
   constructor(private router: Router) {
   }
@@ -28,11 +26,9 @@ export class HeaderComponent {
       // @ts-ignore
       this.router.navigate(['/home']).then(()=> document.getElementById(el).scrollIntoView({behavior: 'smooth'}) );
     }
-    this.responsiveMenuVisible=false;
   }
 
-  @HostListener('window:scroll', ['getScrollPosition($event)'])
-  getScrollPosition(event: number) {
-    this.pageYPosition=window.pageYOffset
+  @HostListener('window:scroll') onScroll() {
+
   }
 }
