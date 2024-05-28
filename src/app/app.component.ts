@@ -1,7 +1,7 @@
 import {Component, HostListener} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { initFlowbite } from 'flowbite';
-import {HeaderComponent} from "../common/components/header/header.component";
+import {HeaderComponent} from "./components/header/header.component";
 
 @Component({
   selector: 'app-root',
