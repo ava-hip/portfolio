@@ -17,7 +17,7 @@
 .footer-links, .footer-mail {
   position: fixed;
   bottom: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .footer-links {
@@ -39,6 +39,10 @@
 
   .footer-mail:after  {
     width: 80px;
+  }
+
+  .footer-links, .footer-mail {
+    padding-bottom: 4rem;
   }
 
 
