@@ -1,7 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  max-width: 100% ! important;
+
+}
 
 .open-sans-300 {
   font-family: "Open Sans", sans-serif;
