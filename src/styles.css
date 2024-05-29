@@ -38,3 +38,28 @@ html, body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+.fira-code-300 {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: #a8b2d1;
+  position: relative;
+  margin-left: 25px;
+}

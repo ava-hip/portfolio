@@ -1,0 +1,28 @@
+.about-img-container:after {
+  content: '';
+  border: 2px solid #3b82f6;
+  z-index: 0;
+  display: block;
+  position: relative;
+  width: 394px;
+  height: 210px;
+  border-radius: 3px;
+  bottom: 230px;
+  left: 23px;
+}
+
+.skills:before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
+}
+
+
+@media (max-width: 992px) {
+  .about-img-container:after {
+    width: 320px;
+    height: 180px;
+    bottom: 200px;
+  }
+}
