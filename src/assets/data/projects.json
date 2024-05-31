@@ -3,27 +3,32 @@
     {
       "title": "Project title 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": ["angular", "java", "gitlab", "tailwind"]
+      "skills": ["angular", "java", "gitlab", "tailwind"],
+      "icon": "fa-folder-open-o"
     },
     {
       "title": "Project title 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": ["angular", "java", "gitlab", "tailwind"]
+      "skills": ["angular", "java", "gitlab", "tailwind"],
+      "icon": "fa-user"
     },
     {
       "title": "Project title 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": ["angular", "java", "gitlab", "tailwind"]
+      "skills": ["angular", "java", "gitlab", "tailwind"],
+      "icon": "fa-magnifying-glass"
     },
     {
       "title": "Project title 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": ["angular", "java", "gitlab", "tailwind"]
+      "skills": ["angular", "java", "gitlab", "tailwind"],
+      "icon": "fa-download"
     },
     {
       "title": "Project title 5",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": ["angular", "java", "gitlab", "tailwind"]
+      "skills": ["angular", "java", "gitlab", "tailwind"],
+      "icon": "fa-folder-open-o"
     }
   ]
 }

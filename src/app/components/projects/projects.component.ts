@@ -1,12 +1,16 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import * as projects from "../../../assets/data/projects.json"
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [],
+  imports: [
+
+  ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })
-export class ProjectsComponent {
+export class ProjectsComponent{
 
+  protected readonly projects = projects;
 }
