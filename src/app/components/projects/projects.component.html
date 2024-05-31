@@ -1,7 +1,7 @@
 <section class="projects mx-2 md:mx-0 min-h-screen pt-14 mt-32 md:mt-14 text-slate-300" id="projects">
   <div class="container mx-auto">
     <h3 class="section-title text-4xl open-sans-500 mb-6">Projects</h3>
-    <div class="grid grid-cols-1 gap-4 justify-items-center md:justify-items-start md:grid-cols-3">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-items-center md:justify-items-start">
       @for (project of projects.projects; track projects) {
         <div class="more-projects-box p-8 rounded-md cursor-pointer bg-slate-800">
           <div class="flex justify-between items-center mb-4">
@@ -17,8 +17,8 @@
           </p>
           <ul class="flex">
             @for (skill of project.skills; track skill) {
-              <li class="mr-4 text-gray-300">
-                <span class="underline text-white decoration-blue-400 hover:bg-blue-400">{{ skill }}</span>
+              <li class="mr-4 text-gray-300 fira-code-300 text-sm">
+                <span class="text-blue-500">{{ skill }}</span>
               </li>
             }
           </ul>
