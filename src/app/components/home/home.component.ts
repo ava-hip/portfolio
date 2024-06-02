@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import {BannerComponent} from "../banner/banner.component";
-import {AboutComponent} from "../about/about.component";
-import {ProjectsComponent} from "../projects/projects.component";
-import {ContactComponent} from "../contact/contact.component";
+import {BannerComponent} from "./banner/banner.component";
+import {AboutComponent} from "./about/about.component";
+import {ProjectsComponent} from "./projects/projects.component";
+import {ContactComponent} from "./contact/contact.component";
 
 @Component({
   selector: 'app-home',
+  templateUrl: './home.component.html',
   standalone: true,
   imports: [
     BannerComponent,
@@ -13,7 +14,6 @@ import {ContactComponent} from "../contact/contact.component";
     ProjectsComponent,
     ContactComponent
   ],
-  templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {

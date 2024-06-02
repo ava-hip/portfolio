@@ -1,23 +1,17 @@
-import {Component, HostListener} from '@angular/core';
-import {Router, RouterLink, RouterLinkActive} from "@angular/router";
-
+import {Component} from '@angular/core';
+import {TranslateModule} from "@ngx-translate/core";
+import {NgOptimizedImage} from "@angular/common";
 @Component({
   selector: 'app-header',
+  templateUrl: './header.component.html',
   standalone: true,
   imports: [
-    RouterLink,
-    RouterLinkActive
+    TranslateModule,
+    NgOptimizedImage
   ],
-  templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
-
-  constructor(private router: Router) {
-  }
-
-
   scroll(el: string) {
     if(document.getElementById(el)) {
       // @ts-ignore
@@ -26,9 +20,5 @@ export class HeaderComponent {
       // @ts-ignore
       this.router.navigate(['/home']).then(()=> document.getElementById(el).scrollIntoView({behavior: 'smooth'}) );
     }
-  }
-
-  @HostListener('window:scroll') onScroll() {
-
   }
 }
