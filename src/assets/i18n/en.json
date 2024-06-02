@@ -1,6 +1,89 @@
 {
-  "header.item1" : "Home",
-  "header.item2" : "About",
-  "header.item3" : "Projects",
-  "header.item4" : "Contact"
+  "header": {
+    "item1": "Home",
+    "item2": "About",
+    "item3": "Projects",
+    "item4": "Contact"
+  },
+  "banner": {
+    "pretitle": "Hello! My name is",
+    "title": "Hippolyte Gautheron",
+    "job": "Software developer",
+    "description": "I focus on writing clear optimized, and reusable code.\n I mainly use <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">Angular</span>\n and <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">Java</span> (with Spring Boot framework), which allows me to develop reliable and efficient software solutions.",
+    "button": "Get in touch"
+  },
+  "about": {
+    "title": "About me",
+    "description": [
+      "1er <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">paragraphe</span>",
+      "2ème <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">paragraphe</span>",
+      "3ème <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">paragraphe</span>"
+    ],
+    "skills": [
+      "Angular",
+      "HTML & CSS",
+      "Java",
+      "Spring Boot",
+      "Symfony",
+      "Gitlab",
+      "WordPress",
+      "Liquid (Shopify)"
+    ]
+  },
+  "projects": [
+    {
+      "bg": "bg-gradient-to-r from-yellow-200 to-orange-200",
+      "title": "Biscuiterie St-Guilhem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "Wordpress",
+        "PHP",
+        "HTML & CSS"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-indigo-500 to-blue-500",
+      "title": "Project title 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-violet-200 to-pink-200",
+      "title": "Project title 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-rose-400 to-orange-300",
+      "title": "Project title 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-rose-100 to-teal-100",
+      "title": "Project title 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    }
+  ]
 }
