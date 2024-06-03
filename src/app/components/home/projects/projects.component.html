@@ -2,26 +2,8 @@
   <div class="container mx-auto">
     <h3 class="section-title text-4xl open-sans-500 text-slate-300 mb-6">Projects</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center md:justify-items-start">
-      @for (project of "projects" | translate; track project) {
-        <div class="{{project.bg}} more-projects-box p-8 rounded-md cursor-pointer ">
-          <div class="flex justify-between items-center mb-8">
-            <h5 class="text-2xl open-sans-600">{{ project.title }}</h5>
-            <div class="flex justify-end">
-              <a target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
-              <a target="_blank"><i class="ml-4 fab fa-github"></i></a>
-            </div>
-          </div>
-          <p class="mb-8">
-            {{ project.description }}
-          </p>
-          <ul class="flex justify-center">
-            @for (skill of project.skills; track skill) {
-              <li class="mr-4 fira-code-300 text-sm">
-                {{ skill }}
-              </li>
-            }
-          </ul>
-        </div>
+      @for (project of "projects" | translate; track $index) {
+        <app-project [project]="project"></app-project>
       }
     </div>
   </div>

@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {TranslateModule} from "@ngx-translate/core";
 import {NgOptimizedImage} from "@angular/common";
+import {Router} from "@angular/router";
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -12,13 +13,12 @@ import {NgOptimizedImage} from "@angular/common";
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  scroll(el: string) {
-    if(document.getElementById(el)) {
-      // @ts-ignore
-      document.getElementById(el).scrollIntoView({behavior: 'smooth'});
+  constructor(private router: Router ) {}
+  scroll(id: string): void {
+    if(document.getElementById(id)) {
+      document.getElementById(id)!.scrollIntoView({behavior: 'smooth'});
     } else{
-      // @ts-ignore
-      this.router.navigate(['/home']).then(()=> document.getElementById(el).scrollIntoView({behavior: 'smooth'}) );
+      this.router.navigate(['/home']).then(()=> document.getElementById(id)!.scrollIntoView({behavior: 'smooth'}) );
     }
   }
 }

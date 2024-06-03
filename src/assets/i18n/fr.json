@@ -1,20 +1,89 @@
 {
   "header": {
-    "items": [
-      "Accueil",
-      "A propos",
-      "Projets",
-      "Contact"
-    ]
+    "item1": "Accueil",
+    "item2": "A propos",
+    "item3": "Projets",
+    "item4": "Contact"
   },
   "banner": {
     "pretitle": "Bonjour! Je m'appelle",
     "title": "Hippolyte Gautheron",
     "job": "Développeur",
-    "description": "I focus on writing clear optimized, and reusable code.\n I mainly use <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">Angular</span>\n and <span class=\"open-sans-600 underline decoration-blue-500 hover:bg-blue-500\">Java</span> (with Spring Boot framework), which allows me to develop reliable and efficient software solutions.",
+    "description": "Je me concentre sur la rédaction de code clair, optimisé et réutilisable. J'utilise actuellement <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>Angular</span> et <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>Java</span> (avec le framework Spring Boot), ce qui me permet de développer des solutions logicielles fiables et efficaces.",
     "button": "Contact"
   },
   "about": {
-    "title": "A propos"
-  }
+    "title": "A propos",
+    "description": [
+      "Passionné par l'informatique, j'ai commencé mon parcours avec des mods pour les jeux vidéo. C'est après un DUT <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>Métier du Multimedia et de l'Internet </span> que je décida de me spécialiser dedans.",
+      "Je consacre mon temps libre à des projets plus créatifs et artistiques qui me permettent d’expérimenter de nouvelles manières de coder et de nouvelles technologies mais aussi à ma passion de <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>l’escalade</span> que je pratique en salle et la <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>randonnée</span> que ce soit a pieds ou a vélo.",
+      "Voici quelques techonolgies avec lesquelles j'ai pu travaillé :"
+    ],
+    "skills": [
+      "Angular",
+      "HTML & CSS",
+      "Java",
+      "Spring Boot",
+      "Symfony",
+      "Gitlab",
+      "WordPress",
+      "Liquid (Shopify)"
+    ]
+  },
+  "projects": [
+    {
+      "bg": "bg-gradient-to-r from-yellow-200 to-orange-300",
+      "title": "Biscuiterie St-Guilhem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "Wordpress",
+        "PHP",
+        "HTML & CSS"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-indigo-500 to-blue-500",
+      "title": "Project title 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-violet-200 to-pink-200",
+      "title": "Project title 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-rose-400 to-orange-300",
+      "title": "Project title 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    },
+    {
+      "bg": "bg-gradient-to-r from-rose-100 to-teal-100",
+      "title": "Project title 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "skills": [
+        "angular",
+        "java",
+        "gitlab",
+        "tailwind"
+      ]
+    }
+  ]
 }

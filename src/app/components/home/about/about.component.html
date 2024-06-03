@@ -4,7 +4,7 @@
       <div class="mt-8 mb-10 w-full md:w-3/4">
         <h3 class="section-title text-4xl open-sans-500 mb-6">{{ "about.title" | translate}}</h3>
         @for (paragraphe of "about.description" | translate; track paragraphe) {
-          <p [innerHTML]="paragraphe"></p>
+          <p [innerHTML]="paragraphe" class="mb-4"></p>
         }
         <ul class="grid grid-cols-2 gap-2 text-sm overflow-hidden mt-8 text-blue-500 fira-code-300">
           @for (skill of "about.skills" | translate; track skill) {

@@ -2,14 +2,18 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
+    "./projects/**/*.{html,ts}",
     "./node_modules/flowbite/**/*.js"
   ],
+  safelist: [
+    'underline',
+    'decoration-blue-500',
+    'hover:bg-blue-500',
+    {pattern: /to-+/},
+    {pattern: /from-+/},
+  ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'biscuiterie': "url('assets/img/projects/biscuiterie.png')"
-      }
-    },
+    extend: {},
   },
   plugins: [
     require('flowbite/plugin')

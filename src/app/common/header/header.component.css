@@ -1,6 +1,6 @@
 .navbar {
   border-radius: 30px;
-  background: rgba(66, 66, 66, 0.08);
+  background: rgba(66, 66, 66, 0.15);
   backdrop-filter: blur( 5px );
   -webkit-backdrop-filter: blur( 5px );
 }
