@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, HostListener} from '@angular/core';
 import {TranslateModule} from "@ngx-translate/core";
 import {NgOptimizedImage} from "@angular/common";
 import {Router} from "@angular/router";
@@ -13,12 +13,24 @@ import {Router} from "@angular/router";
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  constructor(private router: Router ) {}
+  navState: boolean = false;
+  constructor(private router: Router ) {
+
+  }
   scroll(id: string): void {
     if(document.getElementById(id)) {
       document.getElementById(id)!.scrollIntoView({behavior: 'smooth'});
     } else{
       this.router.navigate(['/home']).then(()=> document.getElementById(id)!.scrollIntoView({behavior: 'smooth'}) );
     }
+  }
+
+  toggleMobileNav(): void {
+    this.navState =! this.navState
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onWindowResize() {
+    return window.innerWidth
   }
 }
