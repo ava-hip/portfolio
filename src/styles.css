@@ -4,7 +4,12 @@
 
 html, body {
   max-width: 100% ! important;
+  overflow-x: hidden;
 
+}
+
+body {
+  position: relative
 }
 
 .open-sans-300 {

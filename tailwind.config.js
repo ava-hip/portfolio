@@ -12,9 +12,22 @@ module.exports = {
     {pattern: /to-+/},
     {pattern: /from-+/},
     'max-w',
+    'text-',
+    'm-',
+    'p'
   ],
   theme: {
     extend: {},
+    container: {
+      screens: {
+        sm: '600px',
+        md: '728px',
+        lg: '728px',
+        xl: '728px',
+        '2xl': '1024px',
+      },
+      padding: '1rem'
+    }
   },
   plugins: [
     require('flowbite/plugin')
