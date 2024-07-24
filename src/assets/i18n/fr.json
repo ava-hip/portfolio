@@ -23,23 +23,21 @@
   "bento-skills": {
     "angular": {
       "title": "Angular",
-      "description": "I use Angular on a daily basis to build custom applications."
+      "description": "J'utilise Angular pour créer des applications performantes et modulables."
     },
     "tailwind": {
       "title": "TailwindCSS",
-      "description": "I use TailwindCSS since 2021. For me it's the best CSS tools."
+      "description": "Je suis un utilisateur de Tailwind depuis plusieurs années maintenant et c'est pour moi le meilleur framework CSS"
     },
     "backend": {
-      "title": "Backend with JAVA and Spring Book Framework",
-      "description": "I have extensive experience with Java Spring Boot, enabling me to build robust, scalable, and efficient web applications and microservices."
+      "title": "Backend avec JAVA et le framwork Spring Boot",
+      "description": "J'ai l'habitude d'utiliser quotidiennement JAVA pour mes web services en REST et faire un backend performant et sécurisé."
     },
     "typescript": {
-      "title": "Typescript lover !",
-      "description": "I use TypeScript to build reliable and maintainable code."
+      "title": "Typescript enjoyer !"
     },
     "continuous": {
-      "title": "Continuous integration with GitLab",
-      "description": "I regularly use GitLab and agile methodologies to work efficiently."
+      "title": "Intégration continue GitLab"
     }
   },
   "projects": {
