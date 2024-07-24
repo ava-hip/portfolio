@@ -1,6 +1,6 @@
-<section class="about min-h-screen flex items-center my-4" id="about">
-  <div class="mx-auto max-w-5xl">
-    <div class="mb-8">
+<section class="about min-h-screen flex items-center my-4 " id="about">
+  <div class="mx-auto container">
+    <div class="">
       <h3 class="section-title text-4xl text-white open-sans-500 my-6">{{ "about.title" | translate}}</h3>
       @for (paragraphe of "about.description" | translate; track paragraphe) {
         <p [innerHTML]="paragraphe" class="mb-4 text-gray-300"></p>
