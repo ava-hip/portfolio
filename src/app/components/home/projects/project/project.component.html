@@ -1,19 +1,15 @@
-<div class="project-container p-8 rounded-md cursor-pointer" [class]="project.bg">
-  <div class="flex justify-between items-center mb-8 from-indigo-300">
+<div class="project-container p-8 max-h-[330px] max-w-[330px] min-h-[330px] min-w-[330px] rounded-md cursor-pointer flex flex-col justify-between" [class]="project.bg">
+  <div class="flex flex-col gap-4 ">
     <h5 class="text-2xl open-sans-600">{{ project.title }}</h5>
-    <div class="flex justify-end">
-      <a target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
-      <a target="_blank"><i class="ml-4 fab fa-github"></i></a>
-    </div>
+    <p class="mb-8">
+      {{project.description}}
+    </p>
   </div>
-  <p class="mb-8">
-    {{ project.description }}
-  </p>
-  <ul class="flex justify-center">
-    @for (skill of project.skills; track skill) {
-      <li class="mr-4 fira-code-300 text-sm">
-        {{ skill }}
-      </li>
-    }
-  </ul>
+    <ul class="flex justify-center">
+      @for (skill of project.skills; track skill) {
+        <li class="mr-4 fira-code-300 text-sm">
+          {{ skill }}
+        </li>
+      }
+    </ul>
 </div>

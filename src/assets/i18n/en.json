@@ -15,75 +15,90 @@
   "about": {
     "title": "About",
     "description": [
-      "1er <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>paragraphe</span>",
-      "2ème <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>paragraphe</span>",
-      "3ème <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>paragraphe</span>"
-    ],
-    "skills": [
-      "Angular",
-      "HTML & CSS",
-      "Java",
-      "Spring Boot",
-      "Symfony",
-      "Gitlab",
-      "WordPress",
-      "Liquid (Shopify)"
+      "Passionate about computers and technologies since I was a kid, I started my journey with mods for video games. After completing a <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>technology degree</span>, I decided to make it my profession",
+      "I devote my free time to more <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>creative</span> projects that allow me to experiment with new ways of coding and try out new technologies, but also to my passion for <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>climbing</span> and <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>hiking</span>, whether on foot or by bike.",
+      "Some of the technologies that I have trained and worked on include :"
     ]
   },
-  "projects": [
-    {
-      "bg": "bg-gradient-to-r from-yellow-200 to-orange-300",
-      "title": "Biscuiterie St-Guilhem",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": [
-        "Wordpress",
-        "PHP",
-        "HTML & CSS"
-      ]
+  "bento-skills": {
+    "angular": {
+      "title": "Angular",
+      "description": "I use Angular on a daily basis to build custom applications."
     },
-    {
-      "bg": "bg-gradient-to-r from-indigo-500 to-blue-500",
-      "title": "Project title 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": [
-        "angular",
-        "java",
-        "gitlab",
-        "tailwind"
-      ]
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "I use TailwindCSS since 2021. For me it's the best CSS tools."
     },
-    {
-      "bg": "bg-gradient-to-r from-violet-200 to-pink-200",
-      "title": "Project title 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": [
-        "angular",
-        "java",
-        "gitlab",
-        "tailwind"
-      ]
+    "backend": {
+      "title": "Backend with JAVA and Spring Book Framework",
+      "description": "I have extensive experience with Java Spring Boot, enabling me to build robust, scalable, and efficient web applications and microservices."
     },
-    {
-      "bg": "bg-gradient-to-r from-rose-400 to-orange-300",
-      "title": "Project title 4",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": [
-        "angular",
-        "java",
-        "gitlab",
-        "tailwind"
-      ]
+    "typescript": {
+      "title": "Typescript lover !",
+      "description": "I use TypeScript to build reliable and maintainable code."
     },
-    {
-      "bg": "bg-gradient-to-r from-rose-100 to-teal-100",
-      "title": "Project title 5",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
-      "skills": [
-        "angular",
-        "java",
-        "gitlab",
-        "tailwind"
-      ]
+    "continuous": {
+      "title": "Continuous integration with GitLab",
+      "description": "I regularly use GitLab and agile methodologies to work efficiently."
     }
-  ]
+  },
+  "projects": {
+    "title": "Projects",
+    "projects" : [
+      {
+        "bg": "bg-gradient-to-r from-yellow-200 to-orange-300",
+        "title": "Biscuiterie St-Guilhem",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+        "skills": [
+          "Wordpress",
+          "PHP",
+          "HTML & CSS"
+        ]
+      },
+      {
+        "bg": "bg-gradient-to-r from-indigo-500 to-blue-500",
+        "title": "Project title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+        "skills": [
+          "angular",
+          "java",
+          "gitlab",
+          "tailwind"
+        ]
+      },
+      {
+        "bg": "bg-gradient-to-r from-violet-200 to-pink-200",
+        "title": "Project title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+        "skills": [
+          "angular",
+          "java",
+          "gitlab",
+          "tailwind"
+        ]
+      },
+      {
+        "bg": "bg-gradient-to-r from-rose-400 to-orange-300",
+        "title": "Project title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+        "skills": [
+          "angular",
+          "java",
+          "gitlab",
+          "tailwind"
+        ]
+      },
+      {
+        "bg": "bg-gradient-to-r from-rose-100 to-teal-100",
+        "title": "Project title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+        "skills": [
+          "angular",
+          "java",
+          "gitlab",
+          "tailwind"
+        ]
+      }
+    ]
+  }
 }
