@@ -11,6 +11,7 @@ module.exports = {
     'hover:bg-blue-500',
     {pattern: /to-+/},
     {pattern: /from-+/},
+    'max-w',
   ],
   theme: {
     extend: {},

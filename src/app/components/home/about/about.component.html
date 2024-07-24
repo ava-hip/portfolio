@@ -1,23 +1,12 @@
-<section class="about mx-4 md:mx-0 min-h-screen pt-14 text-slate-300" id='about'>
-  <div class="container mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
-      <div class="mt-8 mb-10 w-full md:w-3/4">
-        <h3 class="section-title text-4xl open-sans-500 mb-6">{{ "about.title" | translate}}</h3>
-        @for (paragraphe of "about.description" | translate; track paragraphe) {
-          <p [innerHTML]="paragraphe" class="mb-4"></p>
-        }
-        <ul class="grid grid-cols-2 gap-2 text-sm overflow-hidden mt-8 text-blue-500 fira-code-300">
-          @for (skill of "about.skills" | translate; track skill) {
-          <li class="skills relative mb-2 pl-8 flex hover:underline">
-            {{ skill }}
-          </li>
-          }
-        </ul>
-      </div>
-      <div class="w-4/5 h-1/2 md:w-96 m-auto about-img-container">
-        <img class="rounded relative z-10" src="assets/img/test.png" alt="Hippolyte Gautheron">
-      </div>
+<section class="about min-h-screen flex items-center my-4" id="about">
+  <div class="mx-auto max-w-5xl">
+    <div class="mb-8">
+      <h3 class="section-title text-4xl text-white open-sans-500 my-6">{{ "about.title" | translate}}</h3>
+      @for (paragraphe of "about.description" | translate; track paragraphe) {
+        <p [innerHTML]="paragraphe" class="mb-4 text-gray-300"></p>
+      }
     </div>
+    <app-skills-bento></app-skills-bento>
   </div>
 </section>
 

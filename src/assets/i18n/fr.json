@@ -15,22 +15,36 @@
   "about": {
     "title": "A propos",
     "description": [
-      "Passionné par l'informatique, j'ai commencé mon parcours avec des mods pour les jeux vidéo. C'est après un DUT <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>Métier du Multimedia et de l'Internet </span> que je décida de me spécialiser dedans.",
-      "Je consacre mon temps libre à des projets plus créatifs et artistiques qui me permettent d’expérimenter de nouvelles manières de coder et de nouvelles technologies mais aussi à ma passion de <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>l’escalade</span> que je pratique en salle et la <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>randonnée</span> que ce soit a pieds ou a vélo.",
+      "Passionné par l'informatique depuis petit, j'ai commencé mon parcours avec des mods pour les jeux vidéo. C'est après un DUT <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>MMI</span> que je décide d'en faire mon métier.",
+      "Je consacre mon temps libre à des projets plus créatifs qui me permettent d’expérimenter de nouvelles manières de coder et d'essayer de nouvelles technologies, mais aussi à ma passion de <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>l’escalade</span> et la <span class='open-sans-600 underline decoration-blue-500 hover:bg-blue-500'>randonnée</span> que ce soit à pieds ou à vélo.",
       "Voici quelques techonolgies avec lesquelles j'ai pu travaillé :"
-    ],
-    "skills": [
-      "Angular",
-      "HTML & CSS",
-      "Java",
-      "Spring Boot",
-      "Symfony",
-      "Gitlab",
-      "WordPress",
-      "Liquid (Shopify)"
     ]
   },
-  "projects": [
+  "bento-skills": {
+    "angular": {
+      "title": "Angular",
+      "description": "I use Angular on a daily basis to build custom applications."
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "I use TailwindCSS since 2021. For me it's the best CSS tools."
+    },
+    "backend": {
+      "title": "Backend with JAVA and Spring Book Framework",
+      "description": "I have extensive experience with Java Spring Boot, enabling me to build robust, scalable, and efficient web applications and microservices."
+    },
+    "typescript": {
+      "title": "Typescript lover !",
+      "description": "I use TypeScript to build reliable and maintainable code."
+    },
+    "continuous": {
+      "title": "Continuous integration with GitLab",
+      "description": "I regularly use GitLab and agile methodologies to work efficiently."
+    }
+  },
+  "projects": {
+  "title": "Projets",
+  "projects" : [
     {
       "bg": "bg-gradient-to-r from-yellow-200 to-orange-300",
       "title": "Biscuiterie St-Guilhem",
@@ -86,4 +100,5 @@
       ]
     }
   ]
+  }
 }
