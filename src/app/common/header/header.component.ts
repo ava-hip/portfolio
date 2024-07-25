@@ -13,24 +13,12 @@ import {Router} from "@angular/router";
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  navState: boolean = false;
-  constructor(private router: Router ) {
-
-  }
+  constructor(private router: Router ) {}
   scroll(id: string): void {
     if(document.getElementById(id)) {
       document.getElementById(id)!.scrollIntoView({behavior: 'smooth'});
     } else{
       this.router.navigate(['/home']).then(()=> document.getElementById(id)!.scrollIntoView({behavior: 'smooth'}) );
     }
-  }
-
-  toggleMobileNav(): void {
-    this.navState =! this.navState
-  }
-
-  @HostListener('window:resize', ['$event'])
-  onWindowResize() {
-    return window.innerWidth
   }
 }
