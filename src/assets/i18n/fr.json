@@ -30,8 +30,8 @@
       "description": "Je suis un utilisateur de Tailwind depuis plusieurs années maintenant et c'est pour moi le meilleur framework CSS"
     },
     "backend": {
-      "title": "Backend avec JAVA et le framwork Spring Boot",
-      "description": "J'ai l'habitude d'utiliser quotidiennement JAVA pour mes web services en REST et faire un backend performant et sécurisé."
+      "title": "Backend avec JAVA et le framwork Spring Web",
+      "description": "J'ai l'habitude d'utiliser quotidiennement Spring Web pour mes webservices REST et faire un backend performant et sécurisé."
     },
     "typescript": {
       "title": "Typescript enjoyer !"
