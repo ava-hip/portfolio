@@ -30,8 +30,8 @@
       "description": "Je suis un utilisateur de Tailwind depuis plusieurs années maintenant et c'est pour moi le meilleur framework CSS"
     },
     "backend": {
-      "title": "Backend avec JAVA et le framwork Spring Boot",
-      "description": "J'ai l'habitude d'utiliser quotidiennement JAVA pour mes web services en REST et faire un backend performant et sécurisé."
+      "title": "Backend avec JAVA et le framwork Spring Web",
+      "description": "J'ai l'habitude d'utiliser quotidiennement Spring Web pour mes webservices REST et faire un backend performant et sécurisé."
     },
     "typescript": {
       "title": "Typescript enjoyer !"
@@ -46,7 +46,7 @@
     {
       "bg": "bg-gradient-to-r from-yellow-200 to-orange-300",
       "title": "Biscuiterie St-Guilhem",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+      "description": "Le site web de la Biscuiterie Saint-Guilhem est un site e-commerce dédié à la mise en valeur et en vente des délices artisanaux de cette biscuiterie. Réalisé en collaboration avec un expert SEO, ce projet combine des compétences techniques et créatives pour offrir une expérience utilisateur optimale.",
       "skills": [
         "Wordpress",
         "PHP",
@@ -55,7 +55,7 @@
     },
     {
       "bg": "bg-gradient-to-r from-indigo-500 to-blue-500",
-      "title": "Project title 2",
+      "title": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
       "skills": [
         "angular",
@@ -66,7 +66,7 @@
     },
     {
       "bg": "bg-gradient-to-r from-violet-200 to-pink-200",
-      "title": "Project title 3",
+      "title": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
       "skills": [
         "angular",
@@ -77,7 +77,7 @@
     },
     {
       "bg": "bg-gradient-to-r from-rose-400 to-orange-300",
-      "title": "Project title 4",
+      "title": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
       "skills": [
         "angular",
@@ -88,7 +88,7 @@
     },
     {
       "bg": "bg-gradient-to-r from-rose-100 to-teal-100",
-      "title": "Project title 5",
+      "title": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
       "skills": [
         "angular",

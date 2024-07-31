@@ -1,9 +1,11 @@
 <section class="projects min-h-screen flex items-center my-4" id="projects">
   <div class="mx-auto container">
     <h3 class="section-title text-4xl open-sans-500 text-slate-300 mb-12">{{"projects.title" | translate}}</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center md:justify-items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center md:justify-items-start">
       @for (project of "projects.projects" | translate; track $index) {
-        <app-project [project]="project"></app-project>
+        @if (project.title) {
+          <app-project [project]="project"></app-project>
+        }
       }
     </div>
   </div>
