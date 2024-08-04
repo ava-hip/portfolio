@@ -1,6 +1,20 @@
-<div class="project-container p-8 min-h-[330px] max-w-full rounded-md cursor-pointer flex flex-col justify-between" [class]="project.bg">
+<div class="project-container p-8 min-h-[330px] max-w-full rounded-md flex flex-col justify-between" [class]="project.bg">
   <div class="flex flex-col gap-4 ">
-    <h5 class="text-2xl open-sans-600">{{ project.title }}</h5>
+    <div class="flex justify-between">
+      <h5 class="text-2xl open-sans-600">{{ project.title }}</h5>
+      <div class="flex gap-2">
+        @if (project.github) {
+          <a class="cursor-pointer" href="#">
+            <i class="fa fa-github fa-xl"></i>
+          </a>
+        }
+        @if (project.link) {
+          <a class="cursor-pointer" [href]="project.link" target="_blank">
+            <i class="fa fa-external-link fa-xl"></i>
+          </a>
+        }
+      </div>
+    </div>
     <p class="mb-8">
       {{project.description}}
     </p>
