@@ -1,9 +1,12 @@
 import {Component, Input} from '@angular/core';
+import {LucideAngularModule} from "lucide-angular";
 
 @Component({
   selector: 'app-project',
   standalone: true,
-  imports: [],
+    imports: [
+        LucideAngularModule
+    ],
   templateUrl: './project.component.html',
   styleUrl: './project.component.css'
 })
