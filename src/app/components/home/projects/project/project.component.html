@@ -5,12 +5,12 @@
       <div class="flex gap-2">
         @if (project.github) {
           <a class="cursor-pointer" href="#">
-            <i class="fa fa-github fa-xl"></i>
+            <lucide-angular name="githhub" class="my-icon" [strokeWidth]="1"></lucide-angular>
           </a>
         }
         @if (project.link) {
           <a class="cursor-pointer" [href]="project.link" target="_blank">
-            <i class="fa fa-external-link fa-xl"></i>
+            <lucide-angular name="square-arrow-out-up-right" class="my-icon" [strokeWidth]="1"></lucide-angular>
           </a>
         }
       </div>
