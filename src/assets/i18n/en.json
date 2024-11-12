@@ -57,14 +57,14 @@
       },
       {
         "bg": "bg-gradient-to-r from-indigo-500 to-blue-500",
-        "title": "Project title 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus eget libero maximus euismod nec vitae nulla. Ut dictum metus ut lectus rhoncus, a eleifend ex consectetur.",
+        "title": "UT Tracker - API",
+        "description": "Ce projet est une API dédiée au suivi des performances hebdomadaires dans le mode UT Champions du jeu vidéo FC 25. Elle permet aux utilisateurs d’enregistrer leurs résultats de chaque week-end et de visualiser leurs statistiques clés, comme le nombre de but de chaque joueur, leur meilleur buteur ou passeur.",
         "skills": [
-          "angular",
           "java",
-          "gitlab",
-          "tailwind"
-        ]
+          "spring boot",
+          "github actions"
+        ],
+        "github": "https://github.com/ava-hip/ut-tracker-api"
       },
       {
         "bg": "bg-gradient-to-r from-violet-200 to-pink-200",

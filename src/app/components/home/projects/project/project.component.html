@@ -4,8 +4,8 @@
       <h5 class="text-2xl open-sans-600">{{ project.title }}</h5>
       <div class="flex gap-2">
         @if (project.github) {
-          <a class="cursor-pointer" href="#">
-            <lucide-angular name="githhub" class="my-icon" [strokeWidth]="1"></lucide-angular>
+          <a class="cursor-pointer" [href]="project.github" target="_blank">
+            <lucide-angular name="github" class="my-icon" [strokeWidth]="1"></lucide-angular>
           </a>
         }
         @if (project.link) {
