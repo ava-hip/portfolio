@@ -14,7 +14,9 @@ module.exports = {
     'max-w',
     'text-',
     'm-',
-    'p'
+    'p',
+    'self-center',
+    'justify-self-center'
   ],
   theme: {
     extend: {},
