@@ -16,6 +16,13 @@
   <script src="https://kit.fontawesome.com/26069aa9a7.js" crossorigin="anonymous"></script>
 </head>
 <body class="flex flex-col h-screen w-screen bg-zinc-950 open-sans-400">
-  <app-root></app-root>
+  <app-root @enter class="h-full grid">
+      <div class="lds-ellipsis self-center justify-self-center">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+  </app-root>
 </body>
 </html>

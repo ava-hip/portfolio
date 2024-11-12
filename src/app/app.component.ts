@@ -3,6 +3,7 @@ import { initFlowbite } from 'flowbite';
 import {HeaderComponent} from "./common/header/header.component";
 import {RouterOutlet} from "@angular/router";
 import {FooterComponent} from "./common/footer/footer.component";
+import {animate, style, transition, trigger} from "@angular/animations";
 
 
 @Component({
@@ -12,7 +13,15 @@ import {FooterComponent} from "./common/footer/footer.component";
   imports: [
     HeaderComponent,
     RouterOutlet,
-    FooterComponent
+    FooterComponent,
+  ],
+  animations: [
+    trigger('enter', [
+      transition(':enter', [
+        style({opacity: 0, scale: 0.7}),
+        animate('400ms ease-in', style({opacity:1, scale: 1}))
+      ])
+    ])
   ],
   styleUrl: './app.component.css'
 })
